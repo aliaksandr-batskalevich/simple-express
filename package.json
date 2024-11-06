@@ -1,0 +1,20 @@
+{
+  "name": "arduino-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/aliaksandr-batskalevich/simple-express.git",
+  "author": "”Aliaksandr-Batskalevich” <aliaksandr.batskalevich@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+
+}
