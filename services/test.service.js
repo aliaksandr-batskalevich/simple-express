@@ -2,8 +2,8 @@
 let value = 'no data';
 
 class TestService {
-    async getTest() {
-        console.log(`Test request!`);
+    async getTest(payload) {
+        value = payload;
         return {message: `Success`};
     }
 

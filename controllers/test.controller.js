@@ -4,7 +4,8 @@ const testService = require('../services/test.service.js');
 class TestController {
     async getTest(req, res, next) {
         try {
-            const result = await testService.getTest();
+            const payload = req.query['p1'];
+            const result = await testService.getTest(payload);
             res.json(result);
         } catch (error) {
             next(error);
