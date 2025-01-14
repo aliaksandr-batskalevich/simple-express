@@ -5,4 +5,6 @@ const router = Router();
 
 router.get('/', testController.getTest);
 
+router.get('/data', testController.getData);
+
 module.exports = router;
